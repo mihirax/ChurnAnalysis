@@ -39,19 +39,16 @@ It brings together machine learning modeling in Python and interactive dashboard
 
 ```
 ChurnCast/
-├── app/
-│   └── churn_dashboard.pbix        # Power BI file
 ├── data/
-│   ├── cleaned_telco.csv           # Final cleaned dataset
-│   └── raw_telco_sample.csv        # Sample of raw input data
+│   ├── Cleaned_Customer_Data.csv           # Final cleaned dataset
+│   └── Customer_Data.csv        # Sample of raw input data
 ├── model/
 │   ├── catboost_model.pkl
-│   ├── logistic_regression.pkl
-│   └── shap_visuals.ipynb          # SHAP explanation code
+│   ├── logistic_regression.pkl     
 ├── notebooks/
-│   └── churn_modeling.ipynb        # Full training notebook
-├── visuals/
-│   ├── churn_analysis.png
+│   └── Churn_Predictions.ipynb        # Full training notebook
+├── visuals/                   # POWERBI visuals
+│   ├── churn_analysis.png              
 │   ├── churn_predictions.png
 │   └── model_insights.png
 ├── requirements.txt
@@ -130,7 +127,7 @@ Explains CatBoost predictions with global and local SHAP plots.
 
 ### Open Dashboard
 
-1. Open `app/churn_dashboard.pbix` in Power BI Desktop
+1. Open `https://drive.google.com/file/d/1Lxi1fOru2J87yGOa_LQisKEdTP44eSJg/view` in Power BI Desktop
 2. Interact with slicers (state, gender, contract)
 3. Analyze churn metrics, probabilities, and customer segments
 
