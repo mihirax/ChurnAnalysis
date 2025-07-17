@@ -1,4 +1,4 @@
-# ChurnCast — Telco Churn Prediction & BI Dashboard
+# ChurnCast — Churn Prediction & BI Dashboard
 
 **ChurnCast** is an end-to-end churn intelligence system for telecom customer retention. It combines **machine learning** with **Power BI dashboards** to analyze, explain, and predict customer churn. Built on a real-world-like Telco dataset, it enables business users to **visualize churn risk**, understand driving factors, and identify segments for targeted interventions.
 
