@@ -1,8 +1,8 @@
-# ChurnCast — Churn Prediction & BI Dashboard
+# ChurnCast - Churn Prediction & BI Dashboard
 
 **ChurnCast** is an end-to-end churn intelligence system for telecom customer retention. It combines **machine learning** with **Power BI dashboards** to analyze, explain, and predict customer churn. Built on a real-world-like Telco dataset, it enables business users to **visualize churn risk**, understand driving factors, and identify segments for targeted interventions.
 
->  Dashboard-first, model-supported — built to showcase BI, CRM analytics, and actionable storytelling.
+>  Dashboard-first, model-supported built to showcase BI, CRM analytics, and actionable storytelling.
 
 ---
 
@@ -59,7 +59,7 @@ ChurnCast/
 
 ## Model Design
 
-**Target:** Binary classification — `Churned` vs. `Stayed`
+**Target:** Binary classification - `Churned` vs. `Stayed`
 (`Joined` customers were excluded from training and used for prediction later.)
 
 **Models Tried:**
@@ -244,7 +244,7 @@ Top reasons for churn:
 
 * **Improve Customer Support**
 
-  * Focus on **soft skills training** — support experience directly impacts churn.
+  * Focus on **soft skills training**, support experience directly impacts churn.
 
 * **Run Targeted Retention Campaigns**
 
